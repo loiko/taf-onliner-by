@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: api.TestLogin
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.382 s <<< FAILURE! - in api.TestLogin
+api.TestLogin.testInvalidLogin  Time elapsed: 0.328 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at api.TestLogin.testInvalidLogin(TestLogin.java:24)
+
