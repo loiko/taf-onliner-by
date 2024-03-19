@@ -17,8 +17,6 @@ public class LoginTest {
                 "\"password\": \"\"\n" +
                 "}";
 
-        logger.info("request body: " + body);
-
         given().header("Content-Type", "application/json")
                 .body(body)
                 .when().post(BASE_URL)
