@@ -1,19 +1,4 @@
-2024-03-19 21:59:33,541 INFO a.LoginTest [main] request body: {
-    "login": "!â„–*235", 
-    "password": "12345678"
-}
-2024-03-19 22:32:49,269 INFO a.LoginTest [main] request body: {"login": "", 
-"password": ""
-}
-2024-03-19 22:32:53,060 INFO a.LoginTest [main] request body: {
-    "login": "!¹*235", 
-    "password": "12345678"
-}
-2024-03-19 22:32:53,467 INFO a.LoginTest [main] request body: {
-    "login": "nickl", 
-    "password": "123456"
-}
-2024-03-19 22:33:06,658 INFO b.o.t.p.HomePage [main] HomePage is opened
-2024-03-19 22:33:25,103 INFO b.o.t.p.HomePage [main] HomePage is opened
-2024-03-19 22:33:44,263 INFO b.o.t.p.HomePage [main] HomePage is opened
-2024-03-19 22:33:48,043 INFO b.o.t.p.HomePage [main] Catalog page is opened
+2024-03-20 15:51:16,502 INFO b.o.t.p.HomePage [main] HomePage is opened
+2024-03-20 15:52:00,144 INFO b.o.t.p.HomePage [main] HomePage is opened
+2024-03-20 15:52:30,868 INFO b.o.t.p.HomePage [main] HomePage is opened
+2024-03-20 15:52:32,849 INFO b.o.t.p.HomePage [main] Catalog page is opened
