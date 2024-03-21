@@ -1,8 +1,14 @@
 package api;
 
+import io.restassured.RestAssured;
+import io.restassured.http.Cookie;
+import io.restassured.response.Response;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import static org.hamcrest.Matchers.containsString;
 
 import static org.hamcrest.Matchers.equalTo;
 import static io.restassured.RestAssured.given;
@@ -59,7 +65,37 @@ public class LoginTest {
                 .body("detail", equalTo("Пройдите проверку captcha"))
                 .body("meta.type", equalTo("recaptcha"));
     }
+
+    @Test
+    public void testSearchByProductNumber() {
+
+        String url = "https://zzap.vw-brest.by/search/";
+        String searchItem = "L2153AL1E1";
+        Response response = RestAssured.given().header("User-Agent", "PostmanRuntime/7.37.0")
+                .queryParam("pcode", searchItem)
+                .when().get(url);
+
+        String responseBody = response.getBody().asString();
+        Assertions.assertTrue(responseBody.contains(searchItem));
+        Assertions.assertEquals(200, response.getStatusCode());
+    }
+
+    @Test
+    public void testInvalidEmail() {
+        String url = "https://zzap.vw-brest.by/";
+
+        String responseBody = given().header("Content-Type", "application/x-www-form-urlencoded")
+                .header("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")
+                .formParam("login", "niko@gmail.com")
+                .formParam("pass", "rtyyyy")
+                .when().post(url)
+                .then().extract().asString();
+
+        Assertions.assertTrue(responseBody.contains("Неверный логин/пароль!"));
+    }
 }
+
+
 
 //настроить дженскинс чтобы он запускаля каждые 4 часа
 //дописать логгеры
