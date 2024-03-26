@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="api.LoginTest" time="7.114" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="api.LoginTest" time="9.965" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\corretto-17.0.8\bin"/>
-    <property name="sun.java.command" value="C:\Users\nikol\AppData\Local\Temp\surefire3959128053170679384\surefirebooter11503158600123913670.jar C:\Users\nikol\AppData\Local\Temp\surefire3959128053170679384 2024-03-19T22-32-24_551-jvmRun1 surefire4745178594054180777tmp surefire_01881781156632755199tmp"/>
+    <property name="sun.java.command" value="C:\Users\nikol\AppData\Local\Temp\surefire8624442263176147077\surefirebooter17728269692407303126.jar C:\Users\nikol\AppData\Local\Temp\surefire8624442263176147077 2024-03-26T12-18-41_196-jvmRun1 surefire1400899311752491011tmp surefire_09519844814878842981tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Olga Bernat\Java\taf-onliner-by\target\test-classes;C:\Olga Bernat\Java\taf-onliner-by\target\classes;C:\Users\nikol\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\nikol\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\nikol\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\nikol\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\nikol\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\nikol\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\nikol\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\nikol\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\nikol\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\nikol\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\nikol\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\nikol\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\nikol\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\nikol\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\nikol\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\nikol\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\nikol\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\nikol\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nikol\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\nikol\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\nikol\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\nikol\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\nikol\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\nikol\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nikol\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nikol\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nikol\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nikol\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nikol\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\nikol\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nikol\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\nikol\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\nikol\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\nikol\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\nikol\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\nikol\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\nikol\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\nikol\.m2\repository\io\qameta\allure\allure-junit5\2.24.0\allure-junit5-2.24.0.jar;C:\Users\nikol\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\nikol\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\nikol\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\nikol\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\nikol\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\nikol\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\nikol\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\nikol\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\nikol\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\nikol\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\nikol\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nikol\AppData\Local\Temp\surefire3959128053170679384\surefirebooter11503158600123913670.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nikol\AppData\Local\Temp\surefire8624442263176147077\surefirebooter17728269692407303126.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+7-LTS"/>
@@ -53,94 +53,81 @@
     <property name="user.language.format" value="ru"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\corretto-17.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Gradle\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nikol\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\nikol\AppData\Local\GitHubDesktop\bin;C:\Users\nikol\AppData\Local\JetBrains\Toolbox\scripts;;C:\Program Files (x86)\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\corretto-17.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Gradle\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nikol\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\nikol\AppData\Local\GitHubDesktop\bin;C:\Users\nikol\AppData\Local\JetBrains\Toolbox\scripts;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Fiddler;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
     <property name="java.vm.version" value="17.0.8+7-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testEmptyLoginAndPassword" classname="api.LoginTest" time="3.816">
-    <system-out><![CDATA[2024-03-19T19:32:48.664399700Z main DEBUG Apache Log4j Core 2.23 initializing configuration XmlConfiguration[location=C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml]
-2024-03-19T19:32:48.680344400Z main WARN The use of package scanning to locate plugins is deprecated and will be removed in a future release
-2024-03-19T19:32:48.697838300Z main DEBUG Took 0,012631 seconds to load 0 plugins from package org.apache.logging.log4j.test
-2024-03-19T19:32:48.699828100Z main DEBUG PluginManager 'Core' found 131 plugins
-2024-03-19T19:32:48.700810200Z main WARN The use of package scanning to locate plugins is deprecated and will be removed in a future release
-2024-03-19T19:32:48.700810200Z main DEBUG PluginManager 'Level' found 0 plugins
-2024-03-19T19:32:48.710782200Z main WARN The use of package scanning to locate plugins is deprecated and will be removed in a future release
-2024-03-19T19:32:48.710782200Z main DEBUG PluginManager 'Lookup' found 16 plugins
-2024-03-19T19:32:48.714770700Z main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
-2024-03-19T19:32:48.745211600Z main DEBUG PluginManager 'TypeConverter' found 26 plugins
-2024-03-19T19:32:48.764162200Z main DEBUG createFilter(level="TRACE", onMatch="null", onMismatch="null")
-2024-03-19T19:32:48.764162200Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2024-03-19T19:32:48.787101200Z main DEBUG PatternLayout$Builder(pattern="%m %n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2024-03-19T19:32:48.787101200Z main WARN The use of package scanning to locate plugins is deprecated and will be removed in a future release
-2024-03-19T19:32:48.788098400Z main DEBUG PluginManager 'Converter' found 45 plugins
-2024-03-19T19:32:48.790092600Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
-2024-03-19T19:32:48.821010500Z main DEBUG ConsoleAppender$Builder(target="null", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%m %n), name="STDOUT", Configuration(XMLConfigTest), Filter=null, ={})
-2024-03-19T19:32:48.829985Z main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
-2024-03-19T19:32:48.829985Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2024-03-19T19:32:48.830984700Z main DEBUG PatternLayout$Builder(pattern="%d %p %c{1.} [%t] %m%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2024-03-19T19:32:48.854919Z main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
-2024-03-19T19:32:48.870887300Z main DEBUG TimeBasedTriggeringPolicy$Builder(interval="1", modulate="null", maxRandomDelay="null")
-2024-03-19T19:32:48.871885Z main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
-2024-03-19T19:32:48.872882300Z main DEBUG createPolicy(size="250 MB")
-2024-03-19T19:32:48.877906400Z main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
-2024-03-19T19:32:48.878902800Z main DEBUG createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=262144000)})
-2024-03-19T19:32:48.878902800Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
-2024-03-19T19:32:48.884161200Z main DEBUG RollingFileAppender$Builder(fileName="logs/log4j2.log", filePattern="logs/${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=262144000)])), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d %p %c{1.} [%t] %m%n), name="rollingFile", Configuration(XMLConfigTest), Filter=null, ={})
-2024-03-19T19:32:48.913078900Z main DEBUG Returning file creation time for C:\Olga Bernat\Java\taf-onliner-by\logs\log4j2.log
-2024-03-19T19:32:48.914079400Z main DEBUG Starting RollingFileManager logs/log4j2.log
-2024-03-19T19:32:48.920061100Z main DEBUG PluginManager 'FileConverter' found 2 plugins
-2024-03-19T19:32:48.941022100Z main DEBUG Setting prev file time to 2024-03-19T21:59:32.537+0300
-2024-03-19T19:32:48.942003500Z main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=262144000)])
-2024-03-19T19:32:48.942003500Z main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
-2024-03-19T19:32:48.943997600Z main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=262144000)
-2024-03-19T19:32:48.943997600Z main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
-2024-03-19T19:32:48.945002300Z main DEBUG createAppenders(={STDOUT, rollingFile})
-2024-03-19T19:32:48.945993900Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2024-03-19T19:32:48.946990Z main DEBUG createAppenderRef(ref="STDOUT", level="null", Filter=null)
-2024-03-19T19:32:48.946990Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2024-03-19T19:32:48.947988900Z main DEBUG createAppenderRef(ref="rollingFile", level="null", Filter=null)
-2024-03-19T19:32:48.948985Z main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
-2024-03-19T19:32:48.951976500Z main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={STDOUT, rollingFile}, ={}, Configuration(XMLConfigTest), Filter=null)
-2024-03-19T19:32:48.960951800Z main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
-2024-03-19T19:32:48.961949400Z main DEBUG createLoggers(={root})
-2024-03-19T19:32:48.962947300Z main DEBUG Configuration XmlConfiguration[location=C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml] initialized
-2024-03-19T19:32:48.962947300Z main DEBUG Starting configuration XmlConfiguration[location=C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml]
-2024-03-19T19:32:48.963944Z main DEBUG Started configuration XmlConfiguration[location=C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml] OK.
-2024-03-19T19:32:48.964943300Z main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
-2024-03-19T19:32:48.964943300Z main DEBUG OutputStream closed
-2024-03-19T19:32:48.964943300Z main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
-2024-03-19T19:32:48.965938700Z main DEBUG Appender DefaultConsole-1 stopped with status true
-2024-03-19T19:32:48.966936200Z main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@441016d6 OK
-2024-03-19T19:32:49.140983600Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2
-2024-03-19T19:32:49.150957600Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=StatusLogger
-2024-03-19T19:32:49.156941400Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=ContextSelector
-2024-03-19T19:32:49.177884900Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=Loggers,name=
-2024-03-19T19:32:49.195836800Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=Appenders,name=rollingFile
-2024-03-19T19:32:49.197831500Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=Appenders,name=STDOUT
-2024-03-19T19:32:49.218826700Z main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
-2024-03-19T19:32:49.219774600Z main DEBUG Reconfiguration complete for context[name=266474c2] at URI C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@49005dc4) with optional ClassLoader: null
-2024-03-19T19:32:49.220771700Z main DEBUG Shutdown hook enabled. Registering a new one.
-2024-03-19T19:32:49.225758600Z main DEBUG LoggerContext[name=266474c2, org.apache.logging.log4j.core.LoggerContext@49005dc4] started OK.
-request body: {"login": "", 
-"password": ""
-} 
+  <testcase name="testSearchByProductNumber" classname="api.LoginTest" time="3.59">
+    <system-out><![CDATA[2024-03-26T09:18:56.031418500Z main DEBUG Apache Log4j Core 2.23 initializing configuration XmlConfiguration[location=C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml]
+2024-03-26T09:18:56.045379900Z main WARN The use of package scanning to locate plugins is deprecated and will be removed in a future release
+2024-03-26T09:18:56.060341200Z main DEBUG Took 0,009445 seconds to load 0 plugins from package org.apache.logging.log4j.test
+2024-03-26T09:18:56.061336900Z main DEBUG PluginManager 'Core' found 131 plugins
+2024-03-26T09:18:56.061336900Z main WARN The use of package scanning to locate plugins is deprecated and will be removed in a future release
+2024-03-26T09:18:56.062333900Z main DEBUG PluginManager 'Level' found 0 plugins
+2024-03-26T09:18:56.071311100Z main WARN The use of package scanning to locate plugins is deprecated and will be removed in a future release
+2024-03-26T09:18:56.072307800Z main DEBUG PluginManager 'Lookup' found 16 plugins
+2024-03-26T09:18:56.076297800Z main DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2024-03-26T09:18:56.102227900Z main DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-03-26T09:18:56.117188200Z main DEBUG createFilter(level="TRACE", onMatch="null", onMismatch="null")
+2024-03-26T09:18:56.117188200Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-03-26T09:18:56.138133900Z main DEBUG PatternLayout$Builder(pattern="%m %n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-03-26T09:18:56.139135900Z main WARN The use of package scanning to locate plugins is deprecated and will be removed in a future release
+2024-03-26T09:18:56.139135900Z main DEBUG PluginManager 'Converter' found 45 plugins
+2024-03-26T09:18:56.142120800Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-03-26T09:18:56.164064200Z main DEBUG ConsoleAppender$Builder(target="null", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%m %n), name="STDOUT", Configuration(XMLConfigTest), Filter=null, ={})
+2024-03-26T09:18:56.170046300Z main DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-03-26T09:18:56.171043200Z main DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-03-26T09:18:56.173038Z main DEBUG PatternLayout$Builder(pattern="%d %p %c{1.} [%t] %m%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-03-26T09:18:56.196976600Z main DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2024-03-26T09:18:56.209940Z main DEBUG TimeBasedTriggeringPolicy$Builder(interval="1", modulate="null", maxRandomDelay="null")
+2024-03-26T09:18:56.209940Z main DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2024-03-26T09:18:56.210935800Z main DEBUG createPolicy(size="250 MB")
+2024-03-26T09:18:56.212930400Z main DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2024-03-26T09:18:56.212930400Z main DEBUG createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=262144000)})
+2024-03-26T09:18:56.213929700Z main DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2024-03-26T09:18:56.218916Z main DEBUG RollingFileAppender$Builder(fileName="logs/log4j2.log", filePattern="logs/${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=262144000)])), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d %p %c{1.} [%t] %m%n), name="rollingFile", Configuration(XMLConfigTest), Filter=null, ={})
+2024-03-26T09:18:56.246843700Z main DEBUG Returning file creation time for C:\Olga Bernat\Java\taf-onliner-by\logs\log4j2.log
+2024-03-26T09:18:56.247841800Z main DEBUG Starting RollingFileManager logs/log4j2.log
+2024-03-26T09:18:56.251828400Z main DEBUG PluginManager 'FileConverter' found 2 plugins
+2024-03-26T09:18:56.266787Z main DEBUG Setting prev file time to 2024-03-26T12:07:14.846+0300
+2024-03-26T09:18:56.267784100Z main DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=262144000)])
+2024-03-26T09:18:56.267784100Z main DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2024-03-26T09:18:56.268781100Z main DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=262144000)
+2024-03-26T09:18:56.268781100Z main DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-03-26T09:18:56.269778400Z main DEBUG createAppenders(={STDOUT, rollingFile})
+2024-03-26T09:18:56.269778400Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-03-26T09:18:56.270778300Z main DEBUG createAppenderRef(ref="STDOUT", level="null", Filter=null)
+2024-03-26T09:18:56.270778300Z main DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-03-26T09:18:56.271774900Z main DEBUG createAppenderRef(ref="rollingFile", level="null", Filter=null)
+2024-03-26T09:18:56.271774900Z main DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-03-26T09:18:56.275763800Z main DEBUG LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={STDOUT, rollingFile}, ={}, Configuration(XMLConfigTest), Filter=null)
+2024-03-26T09:18:56.280751400Z main DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-03-26T09:18:56.282744400Z main DEBUG createLoggers(={root})
+2024-03-26T09:18:56.282744400Z main DEBUG Configuration XmlConfiguration[location=C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml] initialized
+2024-03-26T09:18:56.283741400Z main DEBUG Starting configuration XmlConfiguration[location=C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml]
+2024-03-26T09:18:56.283741400Z main DEBUG Started configuration XmlConfiguration[location=C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml] OK.
+2024-03-26T09:18:56.284751500Z main DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-03-26T09:18:56.285738600Z main DEBUG OutputStream closed
+2024-03-26T09:18:56.285738600Z main DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-03-26T09:18:56.285738600Z main DEBUG Appender DefaultConsole-1 stopped with status true
+2024-03-26T09:18:56.286735800Z main DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@38f63756 OK
+2024-03-26T09:18:56.411324100Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2
+2024-03-26T09:18:56.415314600Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=StatusLogger
+2024-03-26T09:18:56.419304500Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=ContextSelector
+2024-03-26T09:18:56.423293Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=Loggers,name=
+2024-03-26T09:18:56.426287200Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=Appenders,name=rollingFile
+2024-03-26T09:18:56.427285300Z main DEBUG Registering MBean org.apache.logging.log4j2:type=266474c2,component=Appenders,name=STDOUT
+2024-03-26T09:18:56.434261Z main DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2024-03-26T09:18:56.434261Z main DEBUG Reconfiguration complete for context[name=266474c2] at URI C:\Olga Bernat\Java\taf-onliner-by\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@782143e8) with optional ClassLoader: null
+2024-03-26T09:18:56.435261300Z main DEBUG Shutdown hook enabled. Registering a new one.
+2024-03-26T09:18:56.438254300Z main DEBUG LoggerContext[name=266474c2, org.apache.logging.log4j.core.LoggerContext@782143e8] started OK.
 ]]></system-out>
   </testcase>
-  <testcase name="testInvalidLogin" classname="api.LoginTest" time="0.4">
-    <system-out><![CDATA[request body: {
-    "login": "!№*235", 
-    "password": "12345678"
-} 
-]]></system-out>
-  </testcase>
-  <testcase name="testValidLoginAndPassword" classname="api.LoginTest" time="0.417">
-    <system-out><![CDATA[request body: {
-    "login": "nickl", 
-    "password": "123456"
-} 
-]]></system-out>
-  </testcase>
+  <testcase name="testEmptyLoginAndPassword" classname="api.LoginTest" time="2.357"/>
+  <testcase name="testInvalidEmail" classname="api.LoginTest" time="0.872"/>
+  <testcase name="testInvalidLogin" classname="api.LoginTest" time="0.376"/>
+  <testcase name="testValidLoginAndPassword" classname="api.LoginTest" time="0.39"/>
 </testsuite>
